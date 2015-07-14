@@ -23,6 +23,7 @@ Go into ADF Basic Application Archetype:
 1.	Run "mvn clean install"
 2.	Run "mvn archetype:update-local-catalog"
 
+
 To create an application based on this archetype simply run:
 
 	mvn archetype:generate \
@@ -38,6 +39,8 @@ Go into ADF Essentials Application Archetype:
 1.	Run "mvn clean install"
 2.	Run "mvn archetype:update-local-catalog"
 
+
+To create an application based on this archetype simply run:
 
 	mvn archetype:generate \
 	-DarchetypeGroupId=com.oracle.adf.archetype \
