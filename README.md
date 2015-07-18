@@ -49,3 +49,4 @@ To create an application based on this archetype simply run:
 
 	
 For further instructions please consult [OEPE Maven documentation] (http://docs.oracle.com/cd/E47843_06/12124/OEPUG/maven.htm#CHDEHABD).
+If you encounter problems with one of the archetypes consult the document [ECLIPSE.md] (ECLIPSE.md).
