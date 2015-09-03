@@ -15,6 +15,11 @@ Contains an advanced and fixed _ADF Basic Archetype_ which works with OEPE 12.1.
 a new archetype called _ADF Essentials Archetype_. The basic archetype is error prune and does
 not work well together with newer OEPE installations.
 
+Both archetypes generate a project structure that looks like:
+- _artifactId_
+	- App
+	- Model
+	- Web
 
 To install the ADF Basic Archetype in this folder:
 
@@ -49,6 +54,14 @@ To create an application based on this archetype simply run:
 
 	
 For further instructions please consult [OEPE Maven documentation] (http://docs.oracle.com/cd/E47843_06/12124/OEPUG/maven.htm#CHDEHABD).
+
+Before you start importing your project into Eclipse change into the new created project folder and execute the following commands:
+
+	mvn install
+	mvn eclipse:eclipse
+	
+You have to call _mvn install_ before creating the project files for Eclipse. Otherwise you will encounter different errors while transforming your Maven project.	
+
 If you encounter problems with one of the archetypes consult the document [ECLIPSE.md] (ECLIPSE.md).
 
 Feedback
