@@ -264,7 +264,7 @@
 							<jst.jstl>1.2</jst.jstl>
 							<jst.web>3.0</jst.web>
 							<wst.jsdt.web>1.0</wst.jsdt.web>
-							<oracle.adf.web>12.1.3</oracle.adf.web>
+							<oracle.adf.web>12.1.2</oracle.adf.web>
 							<glassfish.web>3.1</glassfish.web>
 						</additionalProjectFacets>
 					</configuration>
@@ -310,12 +310,22 @@
 						<configuration>
 							<warSourceDirectory>WebContent</warSourceDirectory>
 							<failOnMissingWebXml>false</failOnMissingWebXml>
+							<webResources>
+								<resource>
+									<directory>${basedir}/WebContent</directory>
+								</resource>
+							</webResources>
 						</configuration>
 					</execution>
 				</executions>
 				<configuration>
 					<warSourceDirectory>WebContent</warSourceDirectory>
 					<failOnMissingWebXml>false</failOnMissingWebXml>
+					<webResources>
+						<resource>
+							<directory>${basedir}/WebContent</directory>
+						</resource>
+					</webResources>
 				</configuration>
 			</plugin>
 

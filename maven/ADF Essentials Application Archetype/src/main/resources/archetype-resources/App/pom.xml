@@ -257,6 +257,19 @@
                     </reportPlugins>
                 </configuration>
             </plugin>
+            
+            <plugin>
+				<artifactId>maven-eclipse-plugin</artifactId>
+				<version>2.10</version>
+				<!-- add additional facects for ADF Essentials -->
+				<!-- Workaround if project configuration is failing inside of OEPE -->
+				<configuration>
+					<additionalProjectFacets>
+						<jst.ear>5.0</jst.ear>
+						<oracle.adf.ear>12.1.2</oracle.adf.ear>
+					</additionalProjectFacets>
+				</configuration>
+			</plugin>
         </plugins>
     </build>
 
