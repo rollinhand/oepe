@@ -261,7 +261,7 @@
 						<additionalProjectFacets>
 							<java>1.7</java>
 							<jst.jsf>2.1</jst.jsf>
-							<jst.jsl>1.2</jst.jsl>
+							<jst.jstl>1.2</jst.jstl>
 							<jst.web>3.0</jst.web>
 							<wst.jsdt.web>1.0</wst.jsdt.web>
 							<oracle.adf.web>12.1.3</oracle.adf.web>

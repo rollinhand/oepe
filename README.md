@@ -57,8 +57,7 @@ For further instructions please consult [OEPE Maven documentation] (http://docs.
 
 Before you start importing your project into Eclipse change into the new created project folder and execute the following commands:
 
-	mvn install
-	mvn eclipse:eclipse
+	mvn -Dwtpversion=2.0 eclipse:eclipse install
 	
 You have to call _mvn install_ before creating the project files for Eclipse. Otherwise you will encounter different errors while transforming your Maven project.	
 
