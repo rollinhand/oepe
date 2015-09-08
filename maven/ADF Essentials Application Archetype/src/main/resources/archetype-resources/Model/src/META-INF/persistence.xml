@@ -9,7 +9,7 @@
         <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
         <properties>
             <!--
-            <property name="eclipselink.target-server" value="WebLogic"/>
+            <property name="eclipselink.target-server" value="SunAS9"/>
             <property name="eclipselink.logging.level" value="FINEST"/>
             <property name="javax.persistence.jdbc.driver" value="oracle.jdbc.OracleDriver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:oracle:thin:@localhost:1521:xe"/>
